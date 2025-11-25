@@ -22,7 +22,7 @@
         <aside class="w-56 bg-gray-800 text-white p-4" style="height: calc(100vh - 72px);">
             <a href="/login" class="block py-2">ログイン</a>
             <a href="/register" class="block py-2">新規登録</a>
-            <a href="#" class="block py-2">パスワードの変更</a>
+            <a href="/forgot-password" class="block py-2">パスワードの変更</a>
         </aside>
         {{-- メインコンテンツ --}}
         <main class="flex-1 p-6">

@@ -11,7 +11,7 @@
                 <x-auth.button>登録</x-auth.button>
                 <p class="text-center text-sm text-gray-500 mt-4">
                     パスワードを忘れた場合は
-                    <a href="/reset" class="text-indigo-600 hover:underline">こちら</a>
+                    <a href="/forgot-password" class="text-indigo-600 hover:underline">こちら</a>
                 </p>
             </form>
         </x-auth.card>
