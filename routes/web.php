@@ -34,6 +34,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/habits',  function () {
         return view('habits.index');
     })->name('habits');
+    Route::get('/calender',  function () {
+        return view('dashboard.calender');
+    })->name('calender');
 });
 
 Route::middleware('guest')->group(function () {
