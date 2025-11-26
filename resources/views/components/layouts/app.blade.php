@@ -20,11 +20,11 @@
     <div class="flex mx-auto">
         {{-- サイドバー --}}
         <aside class="w-56 bg-gray-800 text-white p-4" style="height: calc(100vh - 72px);">
-            <a href="#" class="block py-2">トップページ</a>
-            <a href="#" class="block py-2">ユーザー情報</a>
-            <a href="#" class="block py-2">お知らせ</a>
-            <a href="#" class="block py-2">チャット</a>
-            <a href="#" class="block py-2">習慣一覧</a>
+            <a href="/dashboard" class="block py-2">トップページ</a>
+            <a href="/profile" class="block py-2">ユーザー情報</a>
+            <a href="/notice" class="block py-2">お知らせ</a>
+            <a href="/chat" class="block py-2">チャット</a>
+            <a href="/habits" class="block py-2">習慣一覧</a>
         </aside>
         {{-- メインコンテンツ --}}
         <main class="flex-1 p-6">

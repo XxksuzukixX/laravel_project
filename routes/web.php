@@ -13,11 +13,27 @@ use App\Http\Controllers\MessageController;
 //ログアウト
 Route::get('/logout', [AuthController::class, 'logout']);
 
-//ダッシュボード
 Route::middleware('auth')->group(function () {
+    // ダッシュボード
     Route::get('/dashboard',  function () {
         return view('dashboard.index');
     })->name('dashboard');
+    // ユーザープロフィール
+    Route::get('/profile',  function () {
+        return view('profile.show');
+    })->name('profile.show');
+    // チャット
+    Route::get('/chat',  function () {
+        return view('chat.index');
+    })->name('chat');
+    // お知らせ
+    Route::get('/notice',  function () {
+        return view('notice.index');
+    })->name('notice');
+    // 習慣一覧
+    Route::get('/habits',  function () {
+        return view('habits.index');
+    })->name('habits');
 });
 
 Route::middleware('guest')->group(function () {
